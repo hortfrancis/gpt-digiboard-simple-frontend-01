@@ -5,7 +5,7 @@ function getMessage() {
     .then(response => response.json())
     .then(data => {
       console.log('data:', data); 
-      main.innerText = data;
+      main.innerText = data.message;
     });
 }
 
