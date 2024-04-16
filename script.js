@@ -1,4 +1,4 @@
-const main = document.querySelector('main'); 
+const main = document.querySelector('#message-text'); 
 
 function getMessage() {
   fetch('https://gpt-digiboard-backend-01.onrender.com/message')
