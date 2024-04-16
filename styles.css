@@ -15,57 +15,57 @@ body {
     grid-template-rows: repeat(6, 1fr);
     padding: 5vh 5vw;
     overflow: hidden;
+}
 
-    header {
-        grid-column: 1 / span 6;
+header {
+    grid-column: 1 / span 6;
+}
 
-        h1 {
-            color: lightsteelblue;
-            font-size: 2.5vh; 
-            font-weight: 700; 
-            padding-bottom: 0.5ch;
-            border-bottom: 0.3ch solid lightsteelblue;
-        }
-    }
+h1 {
+    color: lightsteelblue;
+    font-size: 2.5vh; 
+    font-weight: 700; 
+    padding-bottom: 0.5ch;
+    border-bottom: 0.3ch solid lightsteelblue;
+}
 
-    main {
-        grid-column: 2 / span 4;
-        grid-row: 3 / span 1;
+main {
+    grid-column: 2 / span 4;
+    grid-row: 3 / span 1;
+}
 
-        .label {
-            color: lightsteelblue;
-            font-size: 2vh; 
-            font-weight: 400; 
-            font-style: italic;
-        }
+.label {
+    color: lightsteelblue;
+    font-size: 2vh; 
+    font-weight: 400; 
+    font-style: italic;
+}
 
-        .message-text {
-            color: darkslategray;
-            font-size: 3.5vh; 
-            font-weight: 500; 
-            margin-top: 5%;
-        }
-    }
+.message-text {
+    color: darkslategray;
+    font-size: 3.5vh; 
+    font-weight: 500; 
+    margin-top: 5%;
+}
 
-    footer {
-        grid-column: 5 / span 2;
-        grid-row: 6 / span 1;
-        display: flex;
-        align-items: flex-end;
-        justify-content: flex-end;
+footer {
+    grid-column: 5 / span 2;
+    grid-row: 6 / span 1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
 
-        a {
-            color: lightsteelblue;
-            font-size: 2vh; 
-            font-weight: 400; 
-            text-decoration: none;
-            border-bottom: 0.1ch solid transparent;
-            transition: all 0.2s;
+a {
+    color: lightsteelblue;
+    font-size: 2vh; 
+    font-weight: 400; 
+    text-decoration: none;
+    border-bottom: 0.1ch solid transparent;
+    transition: all 0.2s;
+}
 
-            &:hover {
-                color: slategray;
-                border-bottom: 0.1ch solid slategray;
-            }
-        }
-    }
+a:hover {
+    color: slategray;
+    border-bottom: 0.1ch solid slategray;
 }
